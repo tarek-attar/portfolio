@@ -1,0 +1,420 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Portfolio website complete</title>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Tareq</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active-link">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">About</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Work</a></li>
+                    <li class="nav__item"><a href="#experience" class="nav__link">Experience</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Hi,<br>I'am <span class="home__title-color">Tareq</span><br> Software Engineer
+                </h1>
+
+                <a href="#" class="button">Contact</a>
+            </div>
+
+            <div class="home__social">
+                <a href="" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+                <a href="" class="home__social-icon"><i class='bx bxl-behance'></i></a>
+                <a href="https://github.com/tarek-attar" target="_blank" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+            </div>
+
+            <div class="home__img">
+                <svg class="home__blob" viewBox="0 0 479 467" xmlns="http://www.w3.org/2000/svg"
+                    xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <mask id="mask0" mask-type="alpha">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                    </mask>
+                    <g mask="url(#mask0)">
+                        <path
+                            d="M9.19024 145.964C34.0253 76.5814 114.865 54.7299 184.111 29.4823C245.804 6.98884 311.86 -14.9503 370.735 14.143C431.207 44.026 467.948 107.508 477.191 174.311C485.897 237.229 454.931 294.377 416.506 344.954C373.74 401.245 326.068 462.801 255.442 466.189C179.416 469.835 111.552 422.137 65.1576 361.805C17.4835 299.81 -17.1617 219.583 9.19024 145.964Z" />
+                        <image class="home__blob-img" x="50" y="60" href="assets/img/perfil.png" />
+                    </g>
+                </svg>
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">About</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/about.png" alt="">
+                </div>
+
+                <div>
+                    <h2 class="about__subtitle">I'am Tareq</h2>
+                    <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
+                        expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo
+                        recusandae cumque perferendis! Recusandae alias accusamus atque.</p>
+                </div>
+            </div>
+        </section>
+
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
+
+            <div class="skills__container bd-grid">
+                <div>
+                    <h2 class="skills__subtitle">Professional Skills</h2>
+                    <p class="skills__text">I specialize in building robust and scalable web applications using modern
+                        technologies. My expertise spans from back-end logic with Laravel to dynamic front-end
+                        interfaces with React and Next.js, always focusing on performance and user experience.</p>
+
+                    <div class="skills__list">
+                        <!-- Programming Languages -->
+                        <div class="skills__data">
+                            <i class='bx bxl-php skills__icon'></i>
+                            <span class="skills__name">PHP</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">JAVASCRIPT</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class='bx bxl-typescript skills__icon'></i>
+                            <span class="skills__name">TYPESCRIPT</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg"
+                                class="skills__icon" alt="Python">
+                            <span class="skills__name">PYTHON</span>
+                        </div>
+
+                        <!-- Frameworks -->
+                        <div class="skills__data">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/laravel/laravel-original.svg"
+                                class="skills__icon" alt="Laravel">
+                            <span class="skills__name">LARAVEL</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class='bx bxl-react skills__icon'></i>
+                            <span class="skills__name">REACT</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg"
+                                class="skills__icon" alt="Next.js">
+                            <span class="skills__name">NEXT.JS</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg"
+                                class="skills__icon" alt="Node.js">
+                            <span class="skills__name">NODE.JS</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class='bx bxl-tailwind-css skills__icon'></i>
+                            <span class="skills__name">TAILWIND CSS</span>
+                        </div>
+
+                        <!-- Tools & Technologies -->
+                        <div class="skills__data">
+                            <i class='bx bxl-html5 skills__icon'></i>
+                            <span class="skills__name">HTML / CSS</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class='bx bxs-data skills__icon'></i>
+                            <span class="skills__name">DATABASE</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <img src="https://raw.githubusercontent.com/devicons/devicon/master/icons/supabase/supabase-original.svg"
+                                class="skills__icon" alt="Supabase">
+                            <span class="skills__name">SUPABASE</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class='bx bx-brain skills__icon'></i>
+                            <span class="skills__name">AI INTEGRATION</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <i class='bx bxl-github skills__icon'></i>
+                            <span class="skills__name">GIT / GITHUB</span>
+                        </div>
+
+                        <div class="skills__data">
+                            <img src="https://cdn.simpleicons.org/hostinger/673DE6" class="skills__icon"
+                                alt="Hostinger">
+                            <span class="skills__name">HOSTINGER</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div>
+                    <img src="assets/img/skills4.png" alt="Professional Skills" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== WORK =====-->
+        <section class="work section" id="work">
+            <h2 class="section-title">Work</h2>
+
+            <div class="work__container bd-grid">
+                <div class="work__img">
+                    <img src="assets/img/work1.png" alt="Landing Page Design">
+                    <div class="work__overlay">
+                        <h3 class="work__overlay-title">Landing Page</h3>
+                        <p class="work__overlay-description">A modern and responsive landing page with smooth animations
+                            and clean UI design.</p>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work2.png" alt="E-Commerce Platform">
+                    <div class="work__overlay">
+                        <h3 class="work__overlay-title">E-Commerce Platform</h3>
+                        <p class="work__overlay-description">Full-stack e-commerce solution with payment integration and
+                            inventory management.</p>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work3.png" alt="Dashboard App">
+                    <div class="work__overlay">
+                        <h3 class="work__overlay-title">Dashboard App</h3>
+                        <p class="work__overlay-description">Interactive analytics dashboard with real-time data
+                            visualization and reporting tools.</p>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work4.png" alt="Mobile Application">
+                    <div class="work__overlay">
+                        <h3 class="work__overlay-title">Mobile Application</h3>
+                        <p class="work__overlay-description">Cross-platform mobile app built with React Native for
+                            seamless user experience.</p>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work5.png" alt="Portfolio Website">
+                    <div class="work__overlay">
+                        <h3 class="work__overlay-title">Portfolio Website</h3>
+                        <p class="work__overlay-description">Creative portfolio showcasing design skills with parallax
+                            effects and animations.</p>
+                    </div>
+                </div>
+                <div class="work__img">
+                    <img src="assets/img/work6.png" alt="AI Integration">
+                    <div class="work__overlay">
+                        <h3 class="work__overlay-title">AI Integration</h3>
+                        <p class="work__overlay-description">Intelligent web application leveraging AI APIs for smart
+                            content generation and analysis.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== EXPERIENCE =====-->
+        <section class="experience section" id="experience">
+            <h2 class="section-title">Experience</h2>
+
+            <div class="experience__container bd-grid">
+                <!-- Certificate 1 -->
+                <div class="experience__card">
+                    <div class="experience__card-header">
+                        <div class="experience__badge">
+                            <i class='bx bxs-certification'></i>
+                        </div>
+                        <span class="experience__date"><i class='bx bx-calendar'></i> 2025</span>
+                    </div>
+                    <h3 class="experience__title">Full Stack Web Development</h3>
+                    <p class="experience__org">Udemy</p>
+                    <p class="experience__description">Comprehensive course covering front-end and back-end technologies including HTML, CSS, JavaScript, React, Node.js, and databases.</p>
+                    <div class="experience__footer">
+                        <span class="experience__tag">Web Development</span>
+                        <a href="#" class="experience__link" target="_blank"><i class='bx bx-link-external'></i> View</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 2 -->
+                <div class="experience__card">
+                    <div class="experience__card-header">
+                        <div class="experience__badge">
+                            <i class='bx bxs-certification'></i>
+                        </div>
+                        <span class="experience__date"><i class='bx bx-calendar'></i> 2024</span>
+                    </div>
+                    <h3 class="experience__title">Laravel Professional</h3>
+                    <p class="experience__org">Laravel Official</p>
+                    <p class="experience__description">Advanced Laravel framework certification covering Eloquent ORM, API development, authentication, and deployment strategies.</p>
+                    <div class="experience__footer">
+                        <span class="experience__tag">Backend</span>
+                        <a href="#" class="experience__link" target="_blank"><i class='bx bx-link-external'></i> View</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 3 -->
+                <div class="experience__card">
+                    <div class="experience__card-header">
+                        <div class="experience__badge">
+                            <i class='bx bxs-certification'></i>
+                        </div>
+                        <span class="experience__date"><i class='bx bx-calendar'></i> 2024</span>
+                    </div>
+                    <h3 class="experience__title">React & Next.js Mastery</h3>
+                    <p class="experience__org">Coursera</p>
+                    <p class="experience__description">Deep dive into React ecosystem, server-side rendering with Next.js, state management, and building production-ready applications.</p>
+                    <div class="experience__footer">
+                        <span class="experience__tag">Frontend</span>
+                        <a href="#" class="experience__link" target="_blank"><i class='bx bx-link-external'></i> View</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 4 -->
+                <div class="experience__card">
+                    <div class="experience__card-header">
+                        <div class="experience__badge">
+                            <i class='bx bxs-certification'></i>
+                        </div>
+                        <span class="experience__date"><i class='bx bx-calendar'></i> 2023</span>
+                    </div>
+                    <h3 class="experience__title">Python for Data Science</h3>
+                    <p class="experience__org">DataCamp</p>
+                    <p class="experience__description">Python programming fundamentals, data analysis with Pandas, visualization with Matplotlib, and introduction to machine learning.</p>
+                    <div class="experience__footer">
+                        <span class="experience__tag">Data Science</span>
+                        <a href="#" class="experience__link" target="_blank"><i class='bx bx-link-external'></i> View</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 5 -->
+                <div class="experience__card">
+                    <div class="experience__card-header">
+                        <div class="experience__badge">
+                            <i class='bx bxs-certification'></i>
+                        </div>
+                        <span class="experience__date"><i class='bx bx-calendar'></i> 2023</span>
+                    </div>
+                    <h3 class="experience__title">Database Design & SQL</h3>
+                    <p class="experience__org">LinkedIn Learning</p>
+                    <p class="experience__description">Relational database design, advanced SQL queries, indexing, optimization techniques, and working with MySQL and PostgreSQL.</p>
+                    <div class="experience__footer">
+                        <span class="experience__tag">Database</span>
+                        <a href="#" class="experience__link" target="_blank"><i class='bx bx-link-external'></i> View</a>
+                    </div>
+                </div>
+
+                <!-- Certificate 6 -->
+                <div class="experience__card">
+                    <div class="experience__card-header">
+                        <div class="experience__badge">
+                            <i class='bx bxs-certification'></i>
+                        </div>
+                        <span class="experience__date"><i class='bx bx-calendar'></i> 2022</span>
+                    </div>
+                    <h3 class="experience__title">Git & GitHub Essentials</h3>
+                    <p class="experience__org">GitHub Learning Lab</p>
+                    <p class="experience__description">Version control fundamentals, branching strategies, collaborative workflows, CI/CD pipelines, and open-source contribution.</p>
+                    <div class="experience__footer">
+                        <span class="experience__tag">DevOps</span>
+                        <a href="#" class="experience__link" target="_blank"><i class='bx bx-link-external'></i> View</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!--===== CONTACT =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contact</h2>
+
+            <div class="contact__container bd-grid">
+                <div class="contact__info">
+                    <h3 class="contact__subtitle">Get In Touch</h3>
+                    <p class="contact__text">I'm currently open for new opportunities or projects. Whether you have a question or just want to say hi, I'll try my best to get back to you!</p>
+
+                    <div class="contact__details">
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class='bx bx-envelope'></i>
+                            </div>
+                            <span class="contact__data">tarekattar2000@yahoo.com</span>
+                        </div>
+                        <div class="contact__item">
+                            <div class="contact__icon">
+                                <i class='bx bx-map'></i>
+                            </div>
+                            <span class="contact__data">Available Worldwide</span>
+                        </div>
+                    </div>
+                </div>
+
+                <form id="contact-form" class="contact__form">
+                    <div class="contact__inputs">
+                        <input type="text" id="contact-name" placeholder="Your Name" class="contact__input" required>
+                        <input type="email" id="contact-email" placeholder="Your Email" class="contact__input" required>
+                    </div>
+                    <textarea id="contact-message" placeholder="Message" cols="0" rows="7" class="contact__input contact__textarea" required></textarea>
+                    <button type="submit" class="contact__button button">
+                        Send Message <i class='bx bx-send'></i>
+                    </button>
+                    <p id="contact-status" class="contact__status"></p>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">Tareq</p>
+        <div class="footer__social">
+            <a href="#" class="footer__icon"><i class='bx bxl-facebook'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-instagram'></i></a>
+            <a href="#" class="footer__icon"><i class='bx bxl-twitter'></i></a>
+        </div>
+        <p class="footer__copy">&#169; Bedimcode. All rigths reserved</p>
+    </footer>
+
+
+    <!--===== SCROLL REVEAL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+</body>
+
+</html>
