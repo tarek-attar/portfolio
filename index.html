@@ -100,9 +100,12 @@
 
                 <div>
                     <h2 class="about__subtitle">I'am Tareq</h2>
-                    <p class="about__text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptate cum
-                        expedita quo culpa tempora, assumenda, quis fugiat ut voluptates soluta, aut earum nemo
-                        recusandae cumque perferendis! Recusandae alias accusamus atque.</p>
+                    <p class="about__text">
+                        I am a Computer Systems Engineer specializing in designing and building scalable software
+                        architectures and reliable backend systems. With a strong foundation in full-stack development,
+                        I bridge the gap between complex engineering principles and clean, high-performance
+                        applications. I thrive on solving technical challenges, optimizing database schemas, and
+                        delivering production-ready platforms that drive business growth and user efficiency.</p>
                 </div>
             </div>
         </section>
@@ -217,15 +220,16 @@
             <h2 class="section-title">Work</h2>
 
             <div class="work__container bd-grid">
-                <div class="work__img">
+                <a href="moalemy-project.html" class="work__img" id="moalemy-card" style="display: block;">
                     <img src="https://res.cloudinary.com/dzm2ow7xz/image/upload/q_auto/f_auto/v1781089136/work1_msnx0d.png"
                         alt="Landing Page Design">
                     <div class="work__overlay">
-                        <h3 class="work__overlay-title">Landing Page</h3>
-                        <p class="work__overlay-description">A modern and responsive landing page with smooth animations
+                        <h3 class="work__overlay-title">Moalemy platform</h3>
+                        <p class="work__overlay-description">A modern and responsive Moalemy platform with smooth
+                            animations
                             and clean UI design.</p>
                     </div>
-                </div>
+                </a>
                 <div class="work__img">
                     <img src="https://res.cloudinary.com/dzm2ow7xz/image/upload/q_auto/f_auto/v1781089128/work2_gpxbmm.jpg"
                         alt="E-Commerce Platform">
@@ -436,6 +440,18 @@
             </div>
         </section>
     </main>
+
+    <!--===== MODAL =====-->
+    <div class="work__modal" id="work-modal">
+        <div class="work__modal-content">
+            <i class='bx bx-x work__modal-close' id="work-modal-close"></i>
+            <img src="" alt="Project Image" class="work__modal-img" id="work-modal-img">
+            <h3 class="work__modal-title" id="work-modal-title"></h3>
+            <p class="work__modal-description" id="work-modal-description"></p>
+            <p class="work__modal-details" id="work-modal-details"></p>
+            <a href="#" target="_blank" class="button work__modal-btn" id="work-modal-btn">Visit</a>
+        </div>
+    </div>
 
     <!--===== FOOTER =====-->
     <footer class="footer">

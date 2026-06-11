@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="assets/css/styles.css">
+
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+    <title>Moalemy Platform - Project Details</title>
+    <style>
+        .project-details {
+            padding-top: calc(var(--header-height) + 2rem);
+            min-height: 80vh;
+        }
+
+        .project__header {
+            text-align: center;
+            margin-bottom: var(--mb-4);
+        }
+
+        .project__img-container {
+            max-width: 800px;
+            margin: 0 auto 2rem;
+            border-radius: .5rem;
+            overflow: hidden;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, .1);
+        }
+
+        .project__img-container img {
+            width: 100%;
+            height: auto;
+            display: block;
+        }
+
+        .project__info {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 0 1.5rem;
+        }
+
+        .project__title {
+            font-size: var(--h1-font-size);
+            color: var(--title-color);
+            margin-bottom: var(--mb-2);
+        }
+
+        .project__description {
+            margin-bottom: var(--mb-4);
+            line-height: 1.6;
+        }
+
+        .project__tech-stack {
+            margin-bottom: var(--mb-4);
+        }
+
+        .project__tech-title {
+            font-size: var(--h3-font-size);
+            margin-bottom: var(--mb-2);
+        }
+
+        .project__tags {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .project__tag {
+            background-color: var(--first-color-light);
+            color: var(--first-color);
+            padding: .5rem 1rem;
+            border-radius: .5rem;
+            font-size: var(--small-font-size);
+            font-weight: var(--font-medium);
+        }
+
+        .project__links {
+            display: flex;
+            gap: 1rem;
+            margin-top: 2rem;
+        }
+
+        .back-link {
+            display: inline-flex;
+            align-items: center;
+            margin-bottom: 2rem;
+            color: var(--first-color);
+            font-weight: var(--font-medium);
+        }
+
+        .back-link i {
+            margin-right: .5rem;
+        }
+    </style>
+</head>
+
+<body>
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="index.html" class="nav__logo">Tareq</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="index.html#home" class="nav__link">Home</a></li>
+                    <li class="nav__item"><a href="index.html#work" class="nav__link active-link">Work</a></li>
+                </ul>
+            </div>
+
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="l-main">
+        <section class="project-details section bd-grid">
+            <div class="project__info">
+                <a href="index.html#work" class="back-link">
+                    <i class='bx bx-arrow-back'></i> Back to Portfolio
+                </a>
+
+                <h1 class="project__title">Moalemy Platform</h1>
+
+                <div class="project__img-container">
+                    <img src="https://res.cloudinary.com/dzm2ow7xz/image/upload/q_auto/f_auto/v1781089136/work1_msnx0d.png"
+                        alt="Moalemy Platform Overview">
+                </div>
+
+                <div class="project__description">
+                    <p><strong>Moalemy</strong> is an advanced, AI-powered e-learning platform architected to deliver
+                        localized and intelligent educational experiences. Built with a mobile-first philosophy, the
+                        platform integrates cutting-edge AI capabilities to analyze student queries through computer
+                        vision, generate dynamic mind maps, and provide personalized study insights based on historical
+                        curricula and exams.</p>
+                    <br>
+                    <p>Key technical features include a robust backend powered by <strong>Laravel</strong>, with
+                        granular access control managed via <strong>Spatie Roles & Permissions</strong> for students,
+                        instructors, and admins. The platform seamlessly integrates the <strong>Gemini API</strong> for
+                        automated text and image analysis, incorporates secure localized payment gateways, and features
+                        an intuitive dashboard for real-time tracking of student engagement metrics.</p>
+                </div>
+
+                <div class="project__tech-stack">
+                    <h3 class="project__tech-title">Technologies Used</h3>
+                    <div class="project__tags">
+                        <span class="project__tag">React</span>
+                        <span class="project__tag">Node.js</span>
+                        <span class="project__tag">Tailwind CSS</span>
+                        <span class="project__tag">Supabase</span>
+                        <span class="project__tag">REST APIs</span>
+                    </div>
+                </div>
+
+                <div class="project__links">
+                    <a href="https://example.com/moalemy" target="_blank" class="button">Visit Live Site <i
+                            class='bx bx-link-external'></i></a>
+                    <a href="https://github.com/tarek-attar" target="_blank" class="button button-light">View Source
+                        Code <i class='bx bxl-github'></i></a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <div class="footer__container bd-grid">
+            <div class="footer__data">
+                <h2 class="footer__title">Tareq</h2>
+                <p class="footer__description">Software Engineer passionate about building modern web applications.</p>
+            </div>
+
+            <div class="footer__data">
+                <h3 class="footer__subtitle">Follow</h3>
+                <div class="footer__social">
+                    <a href="https://github.com/tarek-attar" target="_blank" class="footer__social-icon"><i
+                            class='bx bxl-github'></i></a>
+                    <a href="https://www.linkedin.com/in/tareq-al-attar-8507861a6/" target="_blank"
+                        class="footer__social-icon"><i class='bx bxl-linkedin'></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">&#169; <span id="current-year"></span> Tareq Attar. All rights reserved.</p>
+    </footer>
+
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <script>
+        document.getElementById('current-year').textContent = new Date().getFullYear();
+    </script>
+</body>
+
+</html>

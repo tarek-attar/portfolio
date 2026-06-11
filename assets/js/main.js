@@ -56,6 +56,29 @@ sr.reveal('.home__img, .about__subtitle, .about__text, .skills__img', { delay: 1
 sr.reveal('.home__social-icon', { interval: 50 });
 sr.reveal('.skills__data, .work__img, .contact__input', { interval: 50 }); 
 
+/*==================== MODAL ====================*/
+const modal = document.getElementById('work-modal');
+const modalClose = document.getElementById('work-modal-close');
+
+const modalImg = document.getElementById('work-modal-img');
+const modalTitle = document.getElementById('work-modal-title');
+const modalDescription = document.getElementById('work-modal-description');
+const modalDetails = document.getElementById('work-modal-details');
+const modalBtn = document.getElementById('work-modal-btn');
+
+if (modalClose) {
+    modalClose.addEventListener('click', () => {
+        modal.classList.remove('active-modal');
+    });
+}
+
+// Close modal on outside click
+window.addEventListener('click', (e) => {
+    if (e.target === modal) {
+        modal.classList.remove('active-modal');
+    }
+});
+
 /*==================== CONTACT FORM SUBMISSION ====================*/
 const contactForm = document.getElementById('contact-form');
 const contactStatus = document.getElementById('contact-status');
